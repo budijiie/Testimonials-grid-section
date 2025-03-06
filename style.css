@@ -143,8 +143,10 @@
     }
     
     .attribution a {
-      color: hsl(228, 45%, 44%);
+      color: var(--clrPurple-500);
       text-decoration: none;
+
+      font-size: 15px;
     }
     
     @media (min-width: 650px) {
