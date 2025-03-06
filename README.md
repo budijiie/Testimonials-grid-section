@@ -1,6 +1,6 @@
 # Frontend Mentor - Testimonials grid section
 
-![My design solution](./design/deskstop-screenshot.png)
+![My design solution](./design/dekstop-screenshot.png)
 
 ## Welcome! 👋
 
@@ -31,13 +31,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Dekstop view](./design/deskstop-screenshot.png)
+![Dekstop view](./design/dekstop-screenshot.png)
 ![Mobile view](./design/mobile-screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/testimonials-grid-section-u0j1sxqL-3)
+- [Live Site URL](https://budijiie.github.io/Testimonials-grid-section/)
 
 ## My process
 
@@ -50,11 +50,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@budijiie](https://www.frontendmentor.io/profile/yourusername)
-
-
-
-
+- Frontend Mentor - [@budijiie](https://www.frontendmentor.io/profile/budijiie)
 
 
 **Thank You!** 🚀
