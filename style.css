@@ -1,25 +1,12 @@
-/* .barlow-semi-condensed-medium {
-    font-family: "Barlow Semi Condensed", serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .barlow-semi-condensed-semibold {
-    font-family: "Barlow Semi Condensed", serif;
-    font-weight: 600;
-    font-style: normal;
-  } */
-
-
-/* @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap'); */
+/* base & typography */
 :root {
-    /* ### Primary */
+    /* ### Primary color*/
     
     --clrPurple-50: hsl(260, 100%, 95%);
     --clrPurple-300: hsl(264, 82%, 80%);
     --clrPurple-500: hsl(263, 55%, 52%);
     
-    /* ### Neutral */
+    /* ### Neutral color*/
     
     --clrWhite: hsl(0, 0%, 100%);
     --clrGrey-100: hsl(214, 17%, 92%);
@@ -31,12 +18,14 @@
     --clrBlack: hsl(0, 0%, 7%);
     }
     
+
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
     
+    /* layout mobile first */
     body {
       background-color: var(--clrGrey-100);
       font-size: 0.8125em;
@@ -58,6 +47,9 @@
       align-items: center;
       gap: 32px;
     }
+
+
+    /* card component */
 
     .profile {
       display: flex;
@@ -137,6 +129,8 @@
       line-height: 24px;
     }
     
+
+    /* footer */
     .attribution { 
       font-size: 11px;
       text-align: center;
@@ -148,7 +142,11 @@
 
       font-size: 15px;
     }
+
     
+    /* media query */
+
+    /* tablet view 650px */
     @media (min-width: 650px) {
       main {
         grid-template-columns: repeat(2, 1fr);
@@ -159,6 +157,7 @@
 
     }
     
+    /* dekstop view */
     @media (min-width: 1000px) {
       body {
         height: 100vh;
